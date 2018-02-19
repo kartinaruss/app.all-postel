@@ -27,9 +27,12 @@ package all_postel.all_postel;
 
         import com.facebook.CallbackManager;
         import com.facebook.FacebookSdk;
+        import com.google.firebase.iid.FirebaseInstanceId;
 
         import java.security.MessageDigest;
         import java.security.NoSuchAlgorithmException;
+
+
 
 public class MainActivity extends Activity {
 
@@ -61,7 +64,7 @@ public class MainActivity extends Activity {
 
         this.setTitle("ALL-POSTEL");
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN, WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
 
         super.onCreate(savedInstanceState);
 
@@ -80,6 +83,13 @@ public class MainActivity extends Activity {
 //        }
 
         final Activity activity = this;
+
+
+
+
+//        startService(new Intent(this, MyFirebaseInstanceIDService.class));
+
+        //String token = FirebaseInstanceId.getInstance().getToken();
 
         mWebview.setWebViewClient(new WebViewClient() {
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
@@ -106,7 +116,10 @@ public class MainActivity extends Activity {
         });
 
 
+
         setContentView(mWebview);
+
+
 
 //        printKeyHash();
     }

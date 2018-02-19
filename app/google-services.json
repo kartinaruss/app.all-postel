@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "678319676282",
+    "firebase_url": "https://graceful-design-194009.firebaseio.com",
+    "project_id": "graceful-design-194009",
+    "storage_bucket": "graceful-design-194009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678319676282:android:ff3f8ca68dd8f0a0",
+        "android_client_info": {
+          "package_name": "all_postel.all_postel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678319676282-lstchpsb49ghesldoodnsd436huhmqg6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "all_postel.all_postel",
+            "certificate_hash": "1d0a0c0e0d905c7581212a438f57e16340b6acad"
+          }
+        },
+        {
+          "client_id": "678319676282-lfi064509oviu1act719psm2sa94bbds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxX4qhfAa4S5__YPc9mfhrGQFuwJ7jQHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678319676282-lfi064509oviu1act719psm2sa94bbds.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "678319676282-5gserrq0ksrttdu98ii8lfhsffcee2b7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "All-POSTEL.ALL-POSTEL"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678319676282:android:07490563bba6b10c",
+        "android_client_info": {
+          "package_name": "el_vestido.el_vestido"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678319676282-p6js04g89fpa5j9kkoesmqckn9paus38.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "el_vestido.el_vestido",
+            "certificate_hash": "f8481ee6f578f6ff13a6dd34cd9239d8a6620b58"
+          }
+        },
+        {
+          "client_id": "678319676282-qrnjmetf4o5ojp7u1qotgccspq0v8q15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "el_vestido.el_vestido",
+            "certificate_hash": "1d0a0c0e0d905c7581212a438f57e16340b6acad"
+          }
+        },
+        {
+          "client_id": "678319676282-lfi064509oviu1act719psm2sa94bbds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxX4qhfAa4S5__YPc9mfhrGQFuwJ7jQHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678319676282-lfi064509oviu1act719psm2sa94bbds.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "678319676282-5gserrq0ksrttdu98ii8lfhsffcee2b7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "All-POSTEL.ALL-POSTEL"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

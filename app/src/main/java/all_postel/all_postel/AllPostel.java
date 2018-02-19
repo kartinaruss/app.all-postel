@@ -1,6 +1,7 @@
 package  all_postel.all_postel;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 
 import com.yandex.metrica.YandexMetrica;
@@ -11,6 +12,7 @@ public class AllPostel extends android.app.Application {
     public void onCreate() {
         super.onCreate();
 
+        startService(new Intent(this, MyFirebaseInstanceIDService.class));
 
         // Инициализация AppMetrica SDK
         YandexMetrica.activate(getApplicationContext(), "c0e959b3-a5bb-4fc9-8242-f59405f731a2");
