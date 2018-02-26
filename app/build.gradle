@@ -8,7 +8,7 @@ android {
             storePassword 'IgorAN1963'
         }
     }
-    compileSdkVersion 27
+    compileSdkVersion 17
     // ================
     buildToolsVersion '27.0.2'
     // ================
@@ -16,7 +16,7 @@ android {
         applicationId 'all_postel.all_postel'
         minSdkVersion 17
         targetSdkVersion 27
-        versionCode 5
+        versionCode 7
         versionName '1.1'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.config
